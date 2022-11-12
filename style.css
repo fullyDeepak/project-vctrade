@@ -1,12 +1,27 @@
 html {
-  font-family: "Clash Grotesk";
-  margin: 20px;
+  background-image: linear-gradient(180deg, white, #268c67);
 }
 
+body {
+  font-family: "Clash Grotesk";
+  margin: 3%;
+  margin-bottom: 1000px;
+}
+main {
+  padding-top: 20px;
+}
+p {
+  margin: 0;
+}
 .sc-1 {
   background-image: url("images/banner-01.png");
-  background-size: cover;
-  padding: 30px;
+  background-size: contain;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 120px;
 }
 
 header {
@@ -19,11 +34,14 @@ h1 {
   color: white;
   width: 30%;
   margin-bottom: 0;
+  font-size: 3rem;
+  word-wrap: nowrap;
+  margin-top: 0;
 }
 
 h1 span {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -31,62 +49,311 @@ h1 span {
 .contact-form {
   display: grid;
   /* justify-content:end; */
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
+  width: 42%;
 }
 
-.contact-form input{
-    background-color: hsla(0, 0%, 0%, 0);
-    border-radius: 4px;
-    border-width: 1px;
-    border-color: white;
-    border-style: solid;
-    padding: 10px;
-    color: white;
-    outline: none;
+.contact-form input {
+  background-color: hsla(0, 0%, 0%, 0);
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  padding: 10px;
+  color: white;
+  outline: none;
 }
 
 
+.contact-form input:focus {
+  border-color: #268167;
+  box-shadow: 0 0 5px #268167;
+}
 
-.contact-form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
-    opacity: 1; /* Firefox */
-    font-family: "Clash Grotesk";
-    font-weight: 200;
-  }
+.contact-form input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  font-family: "Clash Grotesk";
+  font-weight: 200;
+}
+
+.input-email-div{
+    display: grid;
+    grid-template-columns: 134% 40%;
+    gap: 10px;
+}
 
 .form-head {
   color: white;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  position: relative;
+  right: 215px;
 }
 
 .contact-form-grid {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  margin-right: 60px;
+  /* margin-top: 20px; */
+  margin-bottom: 80px;
+}
+
+.contact-form button {
+  background-color: #268167;
+  color: white;
+  border: none;
+  font-family: "Clash Grotesk";
+  font-weight: 200;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #119771;
+}
+
+.contact-form button:active {
+  background-color: hsl(163, 40%, 33%);
+}
+
+.sc-1-foot {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.sc-1-foot-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 100px;
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.sc-1-foot-text div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.sc-1-foot-text img {
+  width: 15px;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+.sc-2 {
+  background-color: #222222;
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sc-2-1 {
+  width: 30%;
+}
+
+.sc-2-1 p:nth-child(1) {
+  font-size: 2rem;
+  margin-right: 80px;
+  margin-bottom: 0;
+}
+
+.sc-2-1 p:nth-child(2) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sc-2-1 p:nth-child(3) {
+  color: #f0f5f1;
+  font-weight: 200;
+  margin-bottom: 35px;
+}
+.sc-2-1 button {
+  background-color: inherit;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: white;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "Clash Grotesk";
+  /* font-weight: 300; */
+  cursor: pointer;
+}
+
+.sc-2-1 button:hover {
+  background-color: white;
+  color: #222222;
+}
+
+.sc-2-1 button:active {
+  background-color: #c4c4c4;
+  border-color: #c4c4c4;
+  color: #222222;
+}
+
+.sc-2-2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  color: #f0f5f1;
+}
+
+.sc-2-2-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  font-size: 0.8rem;
+  margin-top: 40px;
+}
+
+.sc-2-2-grid div {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  gap: 15px;
+}
+
+.sc-2-2 img {
+  width: 20px;
+  padding-right: 10px;
+  padding-top: 2px;
+  display: block;
+}
+
+.sc-3 {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.sc-3-1 {
+  width: 30%;
+}
+
+.sc-3-1 p:nth-child(1) {
+  font-size: 2rem;
+  margin-right: 80px;
+  margin-bottom: 0;
+}
+
+.sc-3-1 p:nth-child(2) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sc-3-1 p:nth-child(3) {
+  /* color: #F0F5F1; */
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.sc-3-1 button {
+  background-color: inherit;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  /* border-color: white; */
+  /* color: white; */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "Clash Grotesk";
+  /* font-weight: 300; */
+  cursor: pointer;
+}
+
+.sc-3-1 button:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.sc-3-1 button:active {
+  background-color: #383838;
+  border-color: #383838;
+  color: #ffffff;
+}
+
+.sc-3-2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  /* color: #F0F5F1; */
+}
+
+.sc-3-2-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  font-size: 0.8rem;
+  margin-top: 40px;
+}
+
+.sc-3-2-grid div {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  gap: 15px;
+}
+
+.sc-3-2 img {
+  filter: invert(100%);
+  width: 20px;
+  padding-right: 10px;
+  padding-top: 2px;
+  display: block;
 }
 
 
-.sc-1-foot{
-    display: flex;
-    flex-direction: column;
+
+
+.sc-4 {
+    background-image: url("images/banner-02.png");
+    background-size: contain;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 120px;
     color: white;
+  }
+
+.sc-4-2 .contact-form-grid{
+    align-items: flex-start;
 }
 
-.sc-1-foot-text{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    font-weight: 200;
-    margin-top: 20px;
-    font-size: 1rem;
-}
-
-.sc-1-foot-text div{
+.sc-4-2 {
     display: flex;
     flex-direction: row;
+    margin-top: 300px;
 }
 
-.sc-1-foot-text img{
-    width: 15px;
-    padding-right: 10px;
+.sc-4-2 .form-head {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    position: relative;
+    right: 0px;
 }
