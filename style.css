@@ -1,9 +1,11 @@
+@import url('fonts.css');
+
 html {
   background-image: linear-gradient(180deg, white, #268c67);
 }
 
 body {
-  font-family: "Clash Grotesk";
+  font-family: "ClashGrotesk-Variable";
   margin: 3%;
   margin-bottom: 1000px;
 }
@@ -72,10 +74,8 @@ h1 span {
 }
 
 .contact-form input::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
-  opacity: 1; /* Firefox */
-  font-family: "Clash Grotesk";
+  font-family: "ClashGrotesk-Variable";
   font-weight: 200;
 }
 
@@ -106,7 +106,7 @@ h1 span {
   background-color: #268167;
   color: white;
   border: none;
-  font-family: "Clash Grotesk";
+  font-family: "ClashGrotesk-Variable";
   font-weight: 200;
   border-radius: 4px;
   cursor: pointer;
@@ -193,7 +193,7 @@ h1 span {
   padding-top: 8px;
   padding-bottom: 8px;
   transition: background-color 0.3s, color 0.3s;
-  font-family: "Clash Grotesk";
+  font-family: "ClashGrotesk-Variable";
   /* font-weight: 300; */
   cursor: pointer;
 }
@@ -280,7 +280,7 @@ h1 span {
   padding-top: 8px;
   padding-bottom: 8px;
   transition: background-color 0.3s, color 0.3s;
-  font-family: "Clash Grotesk";
+  font-family: "ClashGrotesk-Variable";
   /* font-weight: 300; */
   cursor: pointer;
 }
