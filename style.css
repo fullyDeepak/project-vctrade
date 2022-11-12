@@ -37,6 +37,10 @@ header {
   margin: 20px;
 }
 
+header div{
+    cursor: pointer;
+}
+
 h1 {
   font-weight: 400;
   color: white;
@@ -119,7 +123,7 @@ h1 span {
   color: white;
   border: none;
   font-family: "ClashGrotesk-Variable";
-  font-weight: 200;
+  font-weight: 300;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
