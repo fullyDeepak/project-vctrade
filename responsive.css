@@ -4,6 +4,7 @@
 
   .sc-1 {
     background-image: url("images/mobile-banner-01.png");
+    background-size: contain;
   }
 
   .img-full {

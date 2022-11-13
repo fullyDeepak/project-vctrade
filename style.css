@@ -40,13 +40,14 @@ p {
   display: flex;
   flex-direction: column;
   background-image: url("images/banner-01.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
   padding-bottom: 120px;
   border-radius: 30px;
+  margin-bottom: 50px;
 }
 
 header {
@@ -382,7 +383,7 @@ h1 span {
   display: flex;
   flex-direction: column;
   background-image: url("images/banner-02.png");
-  background-size: contain;
+  background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
   padding-left: 40px;
@@ -390,6 +391,8 @@ h1 span {
   padding-top: 40px;
   padding-bottom: 50px;
   color: white;
+  border-radius: 30px;
+  margin-bottom: 50px;
 }
 
 .sc-4-1 {
