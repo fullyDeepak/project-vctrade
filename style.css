@@ -14,6 +14,25 @@ main {
   margin-right: 3%;
 }
 
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 p {
   margin: 0;
 }
@@ -139,8 +158,8 @@ h1 span {
   background-color: hsl(163, 40%, 33%);
 }
 
-.mobile-form{
-    display: none;
+.mobile-form {
+  display: none;
 }
 
 .badass-div {
@@ -389,12 +408,12 @@ h1 span {
 }
 
 .sc-4-2 .contact-form {
-    width: 65%;
+  width: 65%;
 }
 
 .sc-4-2 .contact-form-grid {
-    align-items: flex-start;
-  }
+  align-items: flex-start;
+}
 
 .sc-4-2 {
   display: flex;
