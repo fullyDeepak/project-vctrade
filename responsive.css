@@ -14,34 +14,106 @@
 
   h1 {
     width: 100%;
-    margin-top: 250px;
-    font-size: 2.2rem;
+    margin-top: 100px;
+    font-size: 1.8rem;
   }
-  .sc-2{
+
+  h1 span {
+    font-size: 1rem;
+  }
+
+  .sc-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .desk-form {
+    display: none;
+  }
+
+  .mobile-form {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .badass-div {
+    flex-direction: column;
+    width: 100%;
+  }
+  .mobile-form button{
+    width: 109%;
+  }
+
+  .form-head {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    position: static;
+    font-size: 1.2rem;
+    color: black;
+  }
+  .sc-1-foot {
+    margin-top: 100px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .sc-1-foot img {
+    filter: invert(100%);
+  }
+
+  .sc-1-foot-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-weight: 400;
+    gap: 10px;
+    font-size: 0.8rem;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .contact-form input {
+    background-color: #00000000;
+    border-color: hsl(0, 0%, 60%);
+    color: rgb(0, 0, 0);
+    width: 100%;
+  }
+
+  .contact-form input::placeholder {
+    color: rgb(0, 0, 0);
+  }
+
+  .sc-2 {
     flex-direction: column;
     padding-left: 20px;
     padding-right: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .sc-2-1{
+  .sc-2-1 {
     width: 100%;
   }
 
-  .sc-2-1 p:nth-child(1){
+  .sc-2-1 p:nth-child(1) {
     font-size: 1.8rem;
-
   }
 
-  .sc-2-1 p:nth-child(2){
+  .sc-2-1 p:nth-child(2) {
     font-size: 1.2rem;
     width: 85%;
   }
-  .sc-2-1 p:nth-child(3){
+  .sc-2-1 p:nth-child(3) {
     font-size: 1rem;
     width: 88%;
   }
-  .sc-2 .mobile-mode{
+  .sc-2 .mobile-mode {
     display: block;
     background-color: #222222;
     color: white;
@@ -54,16 +126,16 @@
     padding-bottom: 14px;
   }
 
-  .sc-2 .mobile-mode:active{
+  .sc-2 .mobile-mode:active {
     background-color: white;
     color: black;
   }
 
-  .sc-2-2{
+  .sc-2-2 {
     width: 100%;
   }
 
-  .sc-2-2-grid{
+  .sc-2-2-grid {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -85,13 +157,13 @@
     margin-right: 10px;
     margin-bottom: 0;
   }
-  .sc-3-1 p:nth-child(3){
+  .sc-3-1 p:nth-child(3) {
     width: 90%;
   }
-  .sc-3-2{
+  .sc-3-2 {
     width: 100%;
   }
-  .sc-3-2-grid{
+  .sc-3-2-grid {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -99,10 +171,10 @@
     width: 95%;
     overflow-x: scroll;
   }
-  .desk-mode{
+  .desk-mode {
     display: none;
   }
- .sc-3 .mobile-mode{
+  .sc-3 .mobile-mode {
     display: block;
     margin-top: 30px;
     border-color: black;
@@ -110,7 +182,7 @@
     padding-bottom: 14px;
   }
 
-  .sc-3 .mobile-mode:active{
+  .sc-3 .mobile-mode:active {
     background-color: black;
     color: white;
   }
