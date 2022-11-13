@@ -536,7 +536,7 @@
     width: 100%;
   }
   .mobile-form button {
-    width: 109%;
+    width: 104%;
   }
 
   .form-head {
@@ -1031,7 +1031,7 @@
 
   .sc-4-2 .contact-form {
     width: 76%;
-}
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1060px) {
@@ -1059,7 +1059,7 @@
 
   .sc-4-2 .contact-form {
     width: 80%;
-}
+  }
 }
 
 @media (min-width: 1061px) and (max-width: 1120px) {
@@ -1087,7 +1087,7 @@
 
   .sc-4-2 .contact-form {
     width: 84%;
-}
+  }
 }
 
 @media (min-width: 1121px) and (max-width: 1180px) {
@@ -1113,7 +1113,7 @@
 
   .sc-4-2 .contact-form {
     width: 84%;
-}
+  }
 }
 
 @media (min-width: 1181px) and (max-width: 1240px) {
@@ -1139,11 +1139,11 @@
 
   .sc-4-2 .contact-form {
     width: 92%;
-}
+  }
 
-.sc-4-2 .contact-form {
+  .sc-4-2 .contact-form {
     width: 80%;
-}
+  }
 }
 
 @media (min-width: 1241px) and (max-width: 1300px) {
@@ -1169,7 +1169,7 @@
 
   .sc-4-2 .contact-form {
     width: 82%;
-}
+  }
 }
 
 @media (min-width: 1301px) and (max-width: 1360px) {
@@ -1195,7 +1195,7 @@
 
   .sc-4-2 .contact-form {
     width: 85%;
-}
+  }
 }
 
 @media (min-width: 1361px) and (max-width: 1420px) {
@@ -1220,7 +1220,7 @@
   }
   .sc-4-2 .contact-form {
     width: 88%;
-}
+  }
 }
 
 @media (min-width: 1421px) and (max-width: 1480px) {
@@ -1228,7 +1228,7 @@
     width: 60%;
   }
   .contact-form {
-    width: 52%;
+    width: 38%;
   }
 
   .contact-form-grid {
@@ -1241,15 +1241,15 @@
   }
 
   .badass-div {
-    width: 52%;
+    width: 80%;
   }
 
   .sc-4-2 .contact-form {
     width: 95%;
-}
+  }
 }
 
-@media (min-width: 1481px){
+@media (min-width: 1481px) {
   h1 {
     width: 60%;
   }
@@ -1272,5 +1272,5 @@
 
   .sc-4-2 .contact-form {
     width: 95%;
-}
+  }
 }

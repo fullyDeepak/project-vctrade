@@ -77,8 +77,8 @@ h1 {
 br {
   display: block; /* makes it have a width */
   content: ""; /* clears default height */
-  margin-top: 0; /* change this to whatever height you want it */
-  margin-bottom: 0; /* change this to whatever height you want it */
+  margin-top: 0; /* change this to whatever deep height you want it */
+  margin-bottom: 0; /* change this to whatever deep height you want it */
 }
 
 h1 span {
@@ -246,7 +246,6 @@ h1 span {
   padding-bottom: 8px;
   transition: background-color 0.3s, color 0.3s;
   font-family: "ClashGrotesk-Variable";
-  /* font-weight: 300; */
   cursor: pointer;
 }
 
@@ -317,8 +316,6 @@ h1 span {
 }
 
 .sc-3-1 p:nth-child(3) {
-  /* color: #F0F5F1; */
-  /* font-weight: 400; */
   margin-bottom: 35px;
   width: 80%;
 }
@@ -353,7 +350,6 @@ h1 span {
   display: flex;
   flex-direction: column;
   width: 50%;
-  /* color: #F0F5F1; */
 }
 
 .sc-3-2-grid {
@@ -384,7 +380,6 @@ h1 span {
   flex-direction: column;
   background-image: url("images/banner-02.png");
   background-size: cover;
-  /* background-position: center; */
   background-repeat: no-repeat;
   padding-left: 40px;
   padding-right: 40px;
@@ -456,7 +451,6 @@ h1 span {
   align-items: center;
   justify-content: space-between;
   white-space: nowrap;
-  /* width: 95%; */
   overflow-x: scroll;
 }
 
