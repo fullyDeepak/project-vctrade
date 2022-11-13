@@ -1,6 +1,7 @@
 /* @media (max-width: 640px) and (min-width: 320px) */
 
-@media (max-width: 500px) {
+@media (max-width: 390px) {
+
   .sc-1 {
     background-image: url("images/mobile-banner-01.png");
   }
@@ -14,7 +15,7 @@
 
   h1 {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 260px;
     font-size: 1.8rem;
   }
 
@@ -25,6 +26,7 @@
   .sc-1 {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
   }
 
   .desk-form {
@@ -34,6 +36,7 @@
   .mobile-form {
     display: block;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
 
   .badass-div {
@@ -54,7 +57,7 @@
     color: black;
   }
   .sc-1-foot {
-    margin-top: 100px;
+    margin-top: 50px;
     color: black;
     font-weight: 500;
   }
@@ -148,6 +151,8 @@
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .sc-3-1 {
     width: 100%;
@@ -190,13 +195,14 @@
     display: flex;
     flex-direction: column;
     background-image: url("images/mobile-banner-02.png");
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    padding-bottom: 90px;
   }
 
   .sc-4-1 {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
   }
 
   .sc-4-1 p:nth-child(1) {
@@ -206,7 +212,7 @@
 
   .sc-4-1 p:nth-child(2) {
     font-size: 1rem;
-    width: 75%;
+    width: 95%;
   }
   .sc-4-2 {
     margin-top: 0;
@@ -228,10 +234,20 @@
 
   .sc-4-2-2 {
     width: 100%;
+    padding-top: 100px;
   }
 
   footer {
     font-size: 0.5rem;
     padding-left: 10px;
   }
+
+  .footer-button-div{
+    margin-top: 40px;
+  }
 }
+
+
+/* @media (max-width: 768px) and (min-width: 640px){
+
+} */
