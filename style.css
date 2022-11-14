@@ -163,11 +163,13 @@ br {
 }
 
 .contact-form button:hover {
-  background-color: #119771;
+  background-color: hsl(163, 100%, 33%);
+  border-color: hsl(163, 100%, 33%);
 }
 
 .contact-form button:active {
   background-color: hsl(163, 40%, 33%);
+  border-color: hsl(163, 40%, 33%);
 }
 
 .foot-head{
