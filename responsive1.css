@@ -2,8 +2,12 @@
     .desk-mode{
         display: none;
     }
+
     .mobile-mode{
         display: block;
+    }
+    .vc-logo{
+        width: 70%;
     }
     .contact-form-grid,
     .sc-1-foot{
