@@ -107,8 +107,9 @@
       .sc-4-2-2 {
         position: absolute;
         bottom: 10%;
-        right: -7%;
-        width: 100%;
+        /* right: -7%; */
+        width: 95%;
+        left: 5%;
       }
       .footer-button{
         width: 70%;
