@@ -10,6 +10,13 @@
         position: static;
         margin-top: 50px;
     }
+    .contact-form input{
+        color: black;
+        font-weight: 500;
+    }
+    .contact-form input::placeholder {
+        color: black;
+    }
     h1{
         font-size: 7vw;
         top: 80%;
