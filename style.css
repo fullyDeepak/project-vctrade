@@ -13,6 +13,9 @@ main {
   margin-left: 3%;
   margin-right: 3%;
 }
+.mobile-mode{
+    display: none;
+}
 
 .float{
 	position:fixed;
@@ -37,16 +40,11 @@ p {
   margin: 0;
 }
 
-
-.sc-1 {
-  position: relative;
-  margin-bottom: 50px;
-}
-
 header {
   display: flex;
   justify-content: space-between;
   margin: 20px;
+  margin-left: 3%;
 }
 
 header div {
@@ -56,6 +54,11 @@ header div {
 .img-mobile {
   display: none;
 }
+
+.sc-1 {
+    position: relative;
+    margin-bottom: 50px;
+  }
 
 h1 {
   position: absolute;
@@ -77,12 +80,6 @@ br {
   margin-bottom: 0; /* change this to whatever height you want it */
 }
 
-h1 span {
-  font-weight: 400;
-  font-size: 1.5rem;
-  margin-top: 0;
-  display: block;
-}
 
 .sc-1 .contact-form-grid {
   position: absolute;
@@ -175,7 +172,10 @@ h1 span {
 
 .foot-head{
     background-color: #268c67;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border-radius: 5px;
     display: inline-block;
 }
@@ -247,7 +247,7 @@ h1 span {
   font-weight: 200;
   margin-bottom: 35px;
 }
-.sc-2-1 button {
+.sc-2 button {
   background-color: inherit;
   border-style: solid;
   border-width: 1px;
@@ -389,24 +389,11 @@ h1 span {
   display: block;
 }
 
-/* .sc-4 {
-  display: flex;
-  flex-direction: column;
-  background-image: url("images/banner-02.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  color: white;
-  border-radius: 30px;
-  margin-bottom: 50px;
-} */
+
 
 .sc-4 {
     position: relative;
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
   }
 
   .sc-4 .contact-form-grid {
@@ -546,4 +533,5 @@ footer {
   font-family: "ClashGrotesk-Variable";
   color: white;
   font-size: 0.8rem;
+  align-items: center;
 }

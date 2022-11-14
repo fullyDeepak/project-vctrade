@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<svg width="270" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1" xml:space="preserve">
+ <desc>Created with Fabric.js 3.6.6</desc>
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_14">
+   <g id="svg_1" transform="matrix(1 0 0 1 233.32 134.06)">
+    <g id="svg_2">
+     <g id="Path_1" transform="matrix(1 0 0 1 22.41 -2.34)">
+      <path d="m14.5,-89.8l0,-21.79l-8.48,0l0,-1.42l18.44,0l0,1.42l-8.44,0l0,21.79l-1.52,0z" fill="rgb(34,34,34)" fill-rule="nonzero" id="svg_3" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-148.24 -14.6)"/>
+     </g>
+     <g id="Path_2" transform="matrix(1 0 0 1 37.79 0.58)">
+      <path d="m30.72,-88.1l0,-17.31l1.31,0l0,3.15l0.17,0a4.62,4.62 0 0 1 4.66,-3.19c3.48,0 4.79,2.43 4.79,5.34l0,1.11l-1.51,0l0,-0.98c0,-2.97 -1.14,-4.08 -3.62,-4.08c-2.8,0 -4.28,1.49 -4.28,4.95l0,11.02l-1.51,0l-0.01,-0.01z" fill="rgb(34,34,34)" fill-rule="nonzero" id="svg_4" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-169.19 -19.23)"/>
+     </g>
+     <g id="Path_3" transform="matrix(1 0 0 1 51.42 0.77)">
+      <path d="m46.6,-92.15c0,-3.08 2.42,-4.3 6.14,-4.74l6,-0.8l0,-1.24c0,-3.54 -1.58,-5.13 -4.97,-5.13s-5.1,1.49 -5.1,4.78l0,0.28l-1.51,0l0,-0.24c0,-3.33 2.52,-6.2 6.69,-6.2c4.41,0 6.34,2.9 6.34,6.47l0,10.88l-1.34,0l0,-3.7l-0.17,-0.03a7.02,7.02 0 0 1 -6.62,4.08c-3.28,0 -5.45,-1.56 -5.45,-4.4l-0.01,-0.01zm5.76,3.05a6.02,6.02 0 0 0 6.38,-6.44l0,-0.9l-6.1,0.83c-3.1,0.38 -4.52,1.18 -4.52,3.36s1.48,3.15 4.24,3.15z" fill="rgb(34,34,34)" fill-rule="nonzero" id="svg_5" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-186.4 -19.41)"/>
+     </g>
+     <g id="Path_4" transform="matrix(1 0 0 1 68.89 -2.17)">
+      <path d="m68.23,-98.32c0,-5.37 2.65,-8.84 7.34,-8.84a6.35,6.35 0 0 1 6.17,4.09l0,-9.94l1.52,0l0,23.21l-1.35,0l0,-3.88l-0.1,0a6.11,6.11 0 0 1 -6.2,4.23c-4.72,0 -7.38,-3.47 -7.38,-8.87zm7.52,7.48c3.41,0 6,-2.04 6,-6.06l0,-2.84c0,-3.98 -2.59,-6.03 -5.94,-6.03s-6.06,1.49 -6.06,7.45s2.79,7.48 6,7.48z" fill="rgb(34,34,34)" fill-rule="nonzero" id="svg_6" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-208.75 -14.78)"/>
+     </g>
+     <g id="Path_5" transform="matrix(1 0 0 1 87.08 0.75)">
+      <path d="m91.82,-96.62c0,-5.06 2.93,-8.83 7.61,-8.83c3.73,0 7.24,2.28 7.24,7.65a8.09,8.09 0 0 1 -0.17,1.77l-13.2,0c0.14,4.19 2.04,6.85 6.24,6.85c3.62,0 5.48,-1.97 5.48,-4.4l0,-0.21l1.51,0l0,0.21c0,3.16 -2.89,5.82 -7,5.82c-4.93,0 -7.72,-3.78 -7.72,-8.87l0.01,0.01zm1.48,-0.66l11.9,0c0.17,-4.95 -2.35,-6.82 -5.76,-6.82c-4.07,0 -6,2.7 -6.13,6.82l-0.01,0z" fill="rgb(34,34,34)" fill-rule="nonzero" id="svg_7" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-232.24 -19.39)"/>
+     </g>
+     <g id="Path_6" transform="matrix(1 0 0 1 0.03 -2.32)">
+      <path d="m-7.29,-96.85a6.83,6.83 0 1 1 -0.15,-9.27l3.31,-3.42a11.56,11.56 0 1 0 -8.2,19.73a11.47,11.47 0 0 0 8.46,-3.73l-3.41,-3.31l-0.01,0z" fill="rgb(34,34,34)" fill-rule="nonzero" id="svg_8" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-119.13 -14.63)"/>
+     </g>
+     <g id="Path_7" transform="matrix(1 0 0 1 -21.55 -2.31)">
+      <path d="m-48.69,-113.01l5.85,21.11l1.26,0l5.87,-21.11l5.09,0l-5.25,19.27a5.53,5.53 0 0 1 -5.3,4l-2.07,0a5.53,5.53 0 0 1 -5.31,-4.01l-5.23,-19.26l5.09,0z" fill="rgb(34,34,34)" fill-rule="nonzero" id="svg_9" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-90.8 -14.63)"/>
+     </g>
+     <g id="Path_8" transform="matrix(1 0 0 1 -54.66 -2.92)">
+      <path d="m-98.71,-116l21.98,6.03a6.36,6.36 0 0 1 4.58,6.11l0,2.38a6.36,6.36 0 0 1 -4.57,6.12l-21.99,6.05l0,-5.86l24.1,-6.78l0,-1.45l-24.1,-6.73l0,-5.87z" fill="rgb(38,140,103)" fill-rule="nonzero" id="svg_10" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-47.57 -13.35)"/>
+     </g>
+     <g id="Path_9" transform="matrix(1 0 0 1 -81.22 2.92)">
+      <path d="m-106.44,-81.77l-21.98,-6.02a6.36,6.36 0 0 1 -4.58,-6.12l0,-2.38a6.36,6.36 0 0 1 4.58,-6.11l21.98,-6.06l0,5.87l-24.1,6.77l0,1.45l24.1,6.74l0,5.86z" fill="rgb(38,140,103)" fill-rule="nonzero" id="svg_11" stroke-dashoffset="0" stroke-miterlimit="4" transform="translate(-13.28 -20.89)"/>
+     </g>
+    </g>
+   </g>
+   <g id="Trade_with_confidence" transform="matrix(1 0 0 1 264.35 172.72)">
+    <text fill="rgb(38,140,103)" fill-rule="nonzero" font-family="ClashGrotesk-Regular, Clash Grotesk" font-size="28" font-style="normal" font-weight="normal" id="svg_12" stroke-dashoffset="0" stroke-miterlimit="4" x="-133" xml:space="preserve" y="-116">
+     <tspan id="svg_13" x="-258.45" y="-107.2">Trade with confidence</tspan>
+    </text>
+   </g>
+  </g>
+ </g>
+</svg>
