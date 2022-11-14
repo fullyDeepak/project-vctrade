@@ -7,6 +7,9 @@ html {
 body {
   margin: 0;
 }
+b{
+    font-weight: 500;
+}
 
 main {
   font-family: "ClashGrotesk-Variable";
@@ -161,6 +164,8 @@ br {
   width: 30%;
   /* white-space: nowrap; */
 }
+
+
 
 .contact-form button:hover {
   background-color: hsl(163, 100%, 33%);
